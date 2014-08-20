@@ -2,6 +2,13 @@
 
 /* mixins, variables, etc. */
 
+// $navbar-inverse-bg: #008F97;
+// $navbar-inverse-border: #008F97;
+// 
+.navbar-inverse .container, .navbar-inner .container, container {
+ pnavbar-inverse-padding-bottom: 0px;
+}
+
 $grayMediumLight: #eaeaea;
 
 @mixin box_sizing {
@@ -42,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
@@ -62,6 +69,8 @@ p {
   line-height: 1.7em;
 }
 
+li
+{ text-align: left; }
 
 /* header */
 

@@ -10,5 +10,11 @@ class StaticPagesController < ApplicationController
   
   def contact
   end
+  
+  def english
+  end
+  
+  def aspiring
+end
 
 end
