@@ -14,6 +14,14 @@
     margin-bottom: 10px;
 }
 ​
+
+/* tables */
+table {
+  width: 300px;
+ border: 1px;
+ border-spacing:5px;
+}
+
 /* mixins, variables, etc. */
 
 // $navbar-inverse-bg: #008F97;
@@ -50,12 +58,16 @@ textarea {
 }
 
 .center {
+ 
   text-align: center;
   h1 {
     margin-bottom: 10px;
   }
 }
 
+.hero-unit {
+  height: 500px;
+}
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -63,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 2em;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
