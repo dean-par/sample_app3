@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+/* forms */
+form {
+  align: center;
+}
 /* buttons */
 
 .workshop {
@@ -16,12 +20,11 @@
 ​
 
 /* tables */
-table {
-  width: 300px;
- border: 1px;
- border-spacing:5px;
+table,th,td
+{
+border:1px solid black;
+ padding: 0.2em 0.4em;
 }
-
 /* mixins, variables, etc. */
 
 // $navbar-inverse-bg: #008F97;
@@ -82,12 +85,12 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.5em;
   letter-spacing: -1px;
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
   font-weight: normal;
-  color: $grayLight;
+ background-color: $grayLight;
 }
 
 p {
