@@ -8,7 +8,7 @@ SampleApp3::Application.routes.draw do
   match '/aspiring', to: 'static_pages#aspiring', via: 'get'
   match '/english', to: 'static_pages#english', via: 'get'
     match '/sbo', to: 'static_pages#sbo', via: 'get'
-    match '/report', to: 'static_pages#report', via: 'get'
+    match '/selectorg', to: 'static_pages#selectorg', via: 'get'
  
  
   # The priority is based upon order of creation: first created -> highest priority.
