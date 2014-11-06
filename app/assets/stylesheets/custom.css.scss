@@ -1,5 +1,14 @@
 @import "bootstrap";
 
+/* scroll */
+div.scroll {
+  
+   
+    height: 550px;
+    overflow: scroll;
+}
+
+
 /* forms */
 form {
   align: center;
